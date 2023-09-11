@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -55,13 +50,6 @@
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "generateWarning",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -70,25 +58,6 @@
 					}
 				],
 				"name": "getWarning",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "locations",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -148,25 +117,6 @@
 				"name": "transferOwnership",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "warningMessages",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -243,11 +193,11 @@
 			]
 		},
 		"myWeatherAlert.sol": {
-			"keccak256": "0xc61c0c48e7c063ea3868e5386fcfe7e7236b054f21837386e082316f05cc118f",
+			"keccak256": "0x1ed54ceb47f6a6f116205bdb37a37324e6f4ca04b659dc389d19eff8d6252263",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://44409a2f6a253bb4e7fc2037456e023223abc9bfd397229caf1d8ded34b3fcad",
-				"dweb:/ipfs/QmYTzA7MLucSWNDRhN2uvKqaQwTwJSDPCgGcvJtdUFMk3F"
+				"bzz-raw://a5e688e2aa663b5aee241b0a251425800eea33547c76c63d0aa989b232ceedba",
+				"dweb:/ipfs/QmPePDzDL2Sg2yxpjjegyUPQ9fTFrATk7cM8P7oUNrKTGR"
 			]
 		}
 	},
